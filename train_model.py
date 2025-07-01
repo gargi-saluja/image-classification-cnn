@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def load_data():
-    "
+    
     (train_images, train_labels), (test_images, test_labels) = tf.keras.datasets.cifar10.load_data()
     
 
